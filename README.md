@@ -1,4 +1,4 @@
 # React skeleton project #
 
-For devslopes.com react-flux course.
+For https://www.udemy.com/react-flux course.
 
