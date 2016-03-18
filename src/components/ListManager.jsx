@@ -12,7 +12,7 @@ var ListManager = React.createClass({
       e.preventDefault();
       var currentItems = this.state.items;
       currentItems.push(this.state.newItemText);
-      this.setState({items: this.state.items, newItemText: ""});
+      this.setState({items: currentItems, newItemText: ""});
     },
     render: function() {
       return (
